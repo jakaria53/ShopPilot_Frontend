@@ -436,7 +436,6 @@ export default function AdminDashboard() {
             </Link>
           </div>
         </div>
-
         {/* Recent Orders */}
         <div className="overflow-hidden rounded-3xl border border-[#eee6da] bg-white">
           <div className="flex items-center justify-between gap-3 p-5 sm:p-7">

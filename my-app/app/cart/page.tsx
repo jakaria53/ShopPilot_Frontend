@@ -1,4 +1,3 @@
-
 "use client";
 
 import Image from "next/image";
@@ -39,11 +38,8 @@ export default function CartPage() {
         setCart([]);
       }
     }
-
     setIsLoaded(true);
   }, []);
-
-
     useEffect(() => {
       if (isLoaded) {
         localStorage.setItem("shoppilot-cart", JSON.stringify(cart));
@@ -51,8 +47,6 @@ export default function CartPage() {
         window.dispatchEvent(new Event("cartUpdated"));
       }
     }, [cart, isLoaded]);
-
-
   const updateQuantity = (
     productId: number,
     size: string,
