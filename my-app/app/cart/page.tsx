@@ -233,7 +233,7 @@ export default function CartPage() {
                         </button>
                       </div>
                     </div>
-
+                    
                     <div className="flex items-center justify-between md:justify-end">
                       <span className="text-xs text-gray-400 md:hidden">
                         Total
