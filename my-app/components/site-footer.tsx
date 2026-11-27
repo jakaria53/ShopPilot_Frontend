@@ -76,7 +76,7 @@ export default function SiteFooter() {
         </div>
 
         <div className="flex flex-col justify-between gap-4 pt-7 text-xs text-white/40 sm:flex-row">
-          <p>© {new Date().getFullYear()} ShopPilot. All rights reserved.</p>
+          <p>© 2026 ShopPilot. All rights reserved.</p>
 
           <div className="flex gap-6">
             <Link href="/privacy" className="transition hover:text-white">
